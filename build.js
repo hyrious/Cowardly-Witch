@@ -19,10 +19,10 @@ esbuild
     loader: {
       ".js": "jsx",
       ".scss": "empty",
-      ".png": "file",
-      ".jpg": "file",
-      ".gif": "file",
-      ".svg": "file",
+      ".png": "dataurl",
+      ".jpg": "dataurl",
+      ".gif": "dataurl",
+      ".svg": "dataurl",
     },
     define: {
       "process.env.BASENAME": '"/Cowardly-Witch"',
