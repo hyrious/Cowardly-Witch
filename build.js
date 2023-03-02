@@ -24,6 +24,9 @@ esbuild
       ".gif": "file",
       ".svg": "file",
     },
+    define: {
+      "process.env.BASENAME": '"/Cowardly-Witch"',
+    },
     legalComments: "none",
   })
   .catch(() => process.exit(1));

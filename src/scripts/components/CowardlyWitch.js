@@ -7,7 +7,7 @@ import ProductPage from '../containers/ProductPage'
 import MemoriesPage from '../containers/MemoriesPage'
 
 export default () => (
-  <Router>
+  <Router basename={process.env.BASENAME}>
     <div className="cowardly-witch">
       <Route exact path="/" component={Home} />
       <Route exact path="/profile" component={ProfilePage} />
